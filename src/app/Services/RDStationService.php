@@ -78,6 +78,8 @@ class RDStationService
 
     private function getStageId()
     {
+        /*não foi finalizada, mas a ideia era puxar todos os 
+        id_stages/stages para conseguir adicionar diferentes confingurações*/
         return 'ID_Teste'; 
     }
 }

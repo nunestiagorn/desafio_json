@@ -2,7 +2,7 @@ Para executar o container utilize o comando docker compose up --build -d
 
 Na primeira execução do laravel é necessário realizar alguns passos:
 
-    O primeiro é criar um arquivo .env dentro da pasta /src e colocar todo o conteúdo que existe no arquivo .env.example;
+    O primeiro é criar um arquivo .env dentro da pasta /src e colocar todo o conteúdo que existe no arquivo .env.example (já é para vir configurado certo, com token e url)
 
     O segundo passo é abrir um novo terminal e, com o container do laravel rodando, digitar o comando **docker compose run --rm composer update**
 
@@ -35,8 +35,14 @@ OBSERVAÇÕES:
 
 Route::post('/deal', [DealController::class, 'createDeal']);
 
-
-
+referência
+Arquivos criados e/ou modificados
+Controllers ----> DealController.php
+Requests ----> DealRequest.php
+Services ----> RDStationService.php
+routes ----> api.php
+.env 
+.env.example
 
 
 
