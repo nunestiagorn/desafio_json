@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'rdstation' => [
+        'base_url' => env('RD_API_BASE_URL'),
+        'token' => env('RD_API_TOKEN'),
+    ],
+
 ];
