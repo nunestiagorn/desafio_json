@@ -24,7 +24,7 @@ OBSERVAÇÕES:
  
  Testes no Insomnia
  Configuração do insomnia
- 
+ request- post: http://localhost:8070/api/deal
  Headers
  token: "token_do_desafio"
  Accept: application/json (esse serve para funcione o arquivo DealRequest.php que valida a entrada de dados do Json do desafio).
